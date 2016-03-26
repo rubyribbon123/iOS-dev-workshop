@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		183AF2B21CA6FDA900B33059 /* ScavengerHuntItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183AF2B11CA6FDA900B33059 /* ScavengerHuntItem.swift */; };
+		1860B1821CA716C200FA03A0 /* ItemsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860B1811CA716C200FA03A0 /* ItemsManager.swift */; };
 		18A426B01CA6CA9900D196C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A426AF1CA6CA9900D196C1 /* AppDelegate.swift */; };
-		18A426B21CA6CA9900D196C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A426B11CA6CA9900D196C1 /* ViewController.swift */; };
+		18A426B21CA6CA9900D196C1 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A426B11CA6CA9900D196C1 /* AddViewController.swift */; };
 		18A426B51CA6CA9900D196C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A426B31CA6CA9900D196C1 /* Main.storyboard */; };
 		18A426B71CA6CA9900D196C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A426B61CA6CA9900D196C1 /* Assets.xcassets */; };
 		18A426BA1CA6CA9900D196C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A426B81CA6CA9900D196C1 /* LaunchScreen.storyboard */; };
 		18A426C51CA6CA9A00D196C1 /* Scavenger_Hunt___Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A426C41CA6CA9A00D196C1 /* Scavenger_Hunt___Tests.swift */; };
 		18A426D01CA6CA9A00D196C1 /* Scavenger_Hunt___UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A426CF1CA6CA9A00D196C1 /* Scavenger_Hunt___UITests.swift */; };
+		18A426DE1CA6D95800D196C1 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A426DD1CA6D95800D196C1 /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		183AF2B11CA6FDA900B33059 /* ScavengerHuntItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScavengerHuntItem.swift; path = ../ScavengerHuntItem.swift; sourceTree = "<group>"; };
+		1860B1811CA716C200FA03A0 /* ItemsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsManager.swift; sourceTree = "<group>"; };
 		18A426AC1CA6CA9900D196C1 /* Scavenger Hunt :).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scavenger Hunt :).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A426AF1CA6CA9900D196C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18A426B11CA6CA9900D196C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18A426B11CA6CA9900D196C1 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		18A426B41CA6CA9900D196C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18A426B61CA6CA9900D196C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18A426B91CA6CA9900D196C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		18A426CB1CA6CA9A00D196C1 /* Scavenger Hunt :)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scavenger Hunt :)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A426CF1CA6CA9A00D196C1 /* Scavenger_Hunt___UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Scavenger_Hunt___UITests.swift"; sourceTree = "<group>"; };
 		18A426D11CA6CA9A00D196C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A426DD1CA6D95800D196C1 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +103,12 @@
 		18A426AE1CA6CA9900D196C1 /* Scavenger Hunt :) */ = {
 			isa = PBXGroup;
 			children = (
+				183AF2B11CA6FDA900B33059 /* ScavengerHuntItem.swift */,
 				18A426AF1CA6CA9900D196C1 /* AppDelegate.swift */,
-				18A426B11CA6CA9900D196C1 /* ViewController.swift */,
+				18A426B11CA6CA9900D196C1 /* AddViewController.swift */,
+				1860B1811CA716C200FA03A0 /* ItemsManager.swift */,
 				18A426B31CA6CA9900D196C1 /* Main.storyboard */,
+				18A426DD1CA6D95800D196C1 /* ListViewController.swift */,
 				18A426B61CA6CA9900D196C1 /* Assets.xcassets */,
 				18A426B81CA6CA9900D196C1 /* LaunchScreen.storyboard */,
 				18A426BB1CA6CA9900D196C1 /* Info.plist */,
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18A426B21CA6CA9900D196C1 /* ViewController.swift in Sources */,
+				18A426B21CA6CA9900D196C1 /* AddViewController.swift in Sources */,
 				18A426B01CA6CA9900D196C1 /* AppDelegate.swift in Sources */,
+				183AF2B21CA6FDA900B33059 /* ScavengerHuntItem.swift in Sources */,
+				18A426DE1CA6D95800D196C1 /* ListViewController.swift in Sources */,
+				1860B1821CA716C200FA03A0 /* ItemsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +496,7 @@
 				18A426D61CA6CA9A00D196C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18A426D71CA6CA9A00D196C1 /* Build configuration list for PBXNativeTarget "Scavenger Hunt :)Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +505,7 @@
 				18A426D91CA6CA9A00D196C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18A426DA1CA6CA9A00D196C1 /* Build configuration list for PBXNativeTarget "Scavenger Hunt :)UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +514,7 @@
 				18A426DC1CA6CA9A00D196C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
